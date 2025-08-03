@@ -1,5 +1,5 @@
-import type { Database } from "@db/sqlite";
+import type { DB } from "https://deno.land/x/sqlite/mod.ts";
 
 export type HasDBClient = {
-  db: Database;
+  db: DB;
 };
